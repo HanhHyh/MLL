@@ -1,0 +1,305 @@
+/*这是头部一*/
+
+.AD_tonglan {
+	width: 100%;
+	height: 50px;
+	background: #c11504;
+}
+.AD_tonglan div {
+	margin: 0 auto;
+	width: 980px;
+	height: 50px;
+}
+
+/*这是头部二*/
+.site-nav {
+	width: 100%;
+	background: #f8f8f8;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+.w {
+	width: 1190px;
+	margin: 0 auto
+}
+.site-nav ul {
+	font-size: 12px;
+}
+.site-nav .fl {
+	float: left;
+}
+
+.site-nav a {
+	text-decoration: none;
+	color: #999;
+}
+
+.site-nav .fl li {
+	padding: 0 8px;
+}
+
+.site-nav ul li span {
+	color: #cf000e;
+	font-weight: 900;
+}
+
+.site-nav .fr {
+	float: right;
+}
+
+.site-nav .aa .fore {
+	position: relative;
+	height: 28px;
+	padding: 0 20px 0 8px;
+}
+.site-nav .aa .fore a{
+	position: relative;
+}
+.site-nav .drop-arrow{
+	position: absolute;
+    width: 7px;
+    height: 4px;
+    background: url(../img/site.png) -92px 0 no-repeat;
+    right: 9px;
+    top: 13px;
+    transition: .2s ease-in-out;
+}
+.site-nav .fr li a:hover~.drop-arrow{
+	transform: rotate(180deg);
+}
+.site-nav .fore:hover{
+	background: #FFFFFF;
+}
+.site-nav .fore:hover .mll-self{
+	display: block;
+}
+
+.site-nav .fore .mll-self{
+    width: 90px;
+    line-height: 22px;
+    padding: 1px 10px 10px;
+    z-index: 100;
+    position: absolute;
+    top: 28px;
+    left: -1px;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    display: none;
+    border-top: 0;
+}
+.site-nav .fore .mll-self .gg{
+	height: 22px;
+    line-height: 28px;
+}
+.site-nav .fore .mll-self .gg a{
+	color: #333;
+}
+.site-nav .fore .i-cart{
+	position: absolute;
+    width: 17px;
+    height: 14px;
+    background: url(../img/site.png) -92px -48px no-repeat;
+    top: 0px;
+    left: 0px;
+}
+.site-nav .fore .i-scan{
+	position: absolute;
+    width: 12px;
+    height: 13px;
+    background: url(../img/site.png) -92px -8px no-repeat;
+    top: 2px;
+    left: -15px;
+}
+.site-nav .fore .nothing{
+	position: absolute;
+    height: 105px;
+    width: 225px;
+    padding: 10px 15px;
+	border: 1px solid #eaeaea;
+	border-top: none;
+	z-index: 1;
+	background: white;
+	line-height: 80px;
+	left: 0;
+	display: none;
+	top: 29px;
+}
+
+/*这是头部三*/
+
+.page-header {
+	padding: 29px 0;
+}
+
+.ph-content .fl {
+	float: left;
+}
+
+.ph-content .fr {
+	float: right;
+}
+
+.ph-content {
+	position: relative;
+}
+
+.ph-content .bg2 {
+	margin: 0 40px;
+}
+
+.ph-content .search-group {
+	position: relative;
+	width: 487px;
+	height: 60px;
+}
+
+.search-group .shang {
+	border: 3px solid #cf000e;
+	height: 36px;
+}
+
+.shang .search-input {
+	width: 382px;
+	height: 30px;
+	border: none;
+	padding: 6px 10px;
+	outline: none;
+	/*让input的轮廓消失掉*/
+}
+
+.shang .btn {
+	width: 90px;
+	height: 30px;
+	background: #cf000e;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.xia {
+	position: absolute;
+	bottom: 0;
+}
+
+.xia a {
+	font-size: 14px;
+	margin-right: 12px;
+	color: #999999;
+}
+
+.xia a:hover {
+	color: #cf000e !important;
+}
+
+.RQ-Code {
+	width: 90px;
+	height: 111px;
+	border: 1px solid #ddd;
+	position: absolute;
+	right: 20px;
+	text-align: center;
+}
+
+.RQ-Code .bg3 {
+	margin-top: 7px;
+}
+
+.RQ-Code a {
+	color: #999;
+	font-size: 12px;
+}
+
+.RQ-Code a:hover {
+	color: #cf000e;
+}
+
+
+/*商品分类*/
+.nav2 {
+	height: 36px;
+	position: relative;
+}
+
+.nav2 .menu-pane1 {
+	width: 200px;
+	height: 36px;
+	float: left;
+}
+
+.nav2 .menu-pane1 h2 {
+	height: 36px;
+	line-height: 36px;
+	background: #cf000e;
+	color: white;
+	text-align: center;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.nav2 .navigator {
+	height: 36px;
+	line-height: 36px;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.nav2 .navigator a {
+	color: #000;
+}
+
+.nav2 .navigator li {
+	float: left;
+	padding-left: 35px;
+}
+
+.nav2 .navigator li:hover {
+	color: #cf000e;
+}
+
+.menu-pane1 .menu-map {
+	width: 200px;
+	height: 400px;
+	background: white;
+	z-index: 100;
+	position: relative;
+}
+
+.menu-map .menu-item {
+	height: 65px;
+	padding: 10px 5px 8px 15px;
+	border-top: 1px solid #F5f5f5;
+}
+
+.menu-item .title h5 {
+	height: 20px;
+	line-height: 17px;
+}
+
+.menu-item .tlt {
+	height: 14px;
+	line-height: 14px;
+	margin-top: 6px;
+}
+
+.menu-item .tlt span {
+	font-size: 12px;
+}
+
+.menu-item .tlt a:hover {
+	color: #cf000e;
+}
+/*.nav2 .sub{
+	position: absolute;
+	width: 430px;
+    height: 400px;
+    padding: 0 10px 31px 0;
+    left: 200px;
+    top: 0px;
+    background: yellowgreen;
+    display: none;
+}
+.menu-map .menu-item:hover .sub{
+display: block;
+}*/
